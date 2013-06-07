@@ -7,6 +7,7 @@
 //
 
 #import "SEDViewController.h"
+#import "CicleUI.h"
 
 @interface SEDViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    CicleUI* ui = [[CicleUI alloc] initWithFrame:(CGRect){ 10,10, 300, 300 }];
+    [self.view addSubview:ui];
 }
 
 - (void)didReceiveMemoryWarning

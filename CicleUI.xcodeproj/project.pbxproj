@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F21BED0409D428D6AC498C9 /* CicleUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F21B7EB0C62B98B0503D446 /* CicleUI.m */; };
 		DE89611D1754F65600DB6824 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE89611C1754F65600DB6824 /* UIKit.framework */; };
 		DE89611F1754F65600DB6824 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE89611E1754F65600DB6824 /* Foundation.framework */; };
 		DE8961211754F65600DB6824 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8961201754F65600DB6824 /* CoreGraphics.framework */; };
@@ -19,9 +20,13 @@
 		DE8961361754F65600DB6824 /* SEDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8961351754F65600DB6824 /* SEDViewController.m */; };
 		DE8961391754F65600DB6824 /* SEDViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE8961371754F65600DB6824 /* SEDViewController_iPhone.xib */; };
 		DE89613C1754F65600DB6824 /* SEDViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE89613A1754F65600DB6824 /* SEDViewController_iPad.xib */; };
+		DE8961441754F9CE00DB6824 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = DE8961421754F9CE00DB6824 /* arrow.png */; };
+		DE8961451754F9CE00DB6824 /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE8961431754F9CE00DB6824 /* arrow@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F21B5153C24C8450A128E5A /* CicleUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CicleUI.h; sourceTree = "<group>"; };
+		9F21B7EB0C62B98B0503D446 /* CicleUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CicleUI.m; sourceTree = "<group>"; };
 		DE8961191754F65600DB6824 /* CicleUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CicleUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE89611C1754F65600DB6824 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DE89611E1754F65600DB6824 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,6 +44,8 @@
 		DE8961351754F65600DB6824 /* SEDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEDViewController.m; sourceTree = "<group>"; };
 		DE8961381754F65600DB6824 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SEDViewController_iPhone.xib; sourceTree = "<group>"; };
 		DE89613B1754F65600DB6824 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SEDViewController_iPad.xib; sourceTree = "<group>"; };
+		DE8961421754F9CE00DB6824 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		DE8961431754F9CE00DB6824 /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +98,11 @@
 				DE8961351754F65600DB6824 /* SEDViewController.m */,
 				DE8961371754F65600DB6824 /* SEDViewController_iPhone.xib */,
 				DE89613A1754F65600DB6824 /* SEDViewController_iPad.xib */,
+				DE8961421754F9CE00DB6824 /* arrow.png */,
+				DE8961431754F9CE00DB6824 /* arrow@2x.png */,
 				DE8961231754F65600DB6824 /* Supporting Files */,
+				9F21B7EB0C62B98B0503D446 /* CicleUI.m */,
+				9F21B5153C24C8450A128E5A /* CicleUI.h */,
 			);
 			path = CicleUI;
 			sourceTree = "<group>";
@@ -168,6 +179,8 @@
 				DE8961331754F65600DB6824 /* Default-568h@2x.png in Resources */,
 				DE8961391754F65600DB6824 /* SEDViewController_iPhone.xib in Resources */,
 				DE89613C1754F65600DB6824 /* SEDViewController_iPad.xib in Resources */,
+				DE8961441754F9CE00DB6824 /* arrow.png in Resources */,
+				DE8961451754F9CE00DB6824 /* arrow@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +194,7 @@
 				DE8961291754F65600DB6824 /* main.m in Sources */,
 				DE89612D1754F65600DB6824 /* SEDAppDelegate.m in Sources */,
 				DE8961361754F65600DB6824 /* SEDViewController.m in Sources */,
+				9F21BED0409D428D6AC498C9 /* CicleUI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +327,7 @@
 				DE8961411754F65600DB6824 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
